@@ -49,6 +49,6 @@ If the training episodes become 6000:
 
 ![](images/002.png)
 
-We can find that the Duration will drop down to the bottom after about 1000 episodes of training. And I print the predictions of Q, and find that the value it outputs from smaller than 1, to near 100(600-1000 episode of training), to finally 1400 after 6000 episode of training. So, my guess that the Q function will tend to infinity is verified.
+We can find that the Duration will drop down to the bottom after about 1000 episodes of training. And I print the predictions of Q, and find that the value it outputs from smaller than 1, to near 100(600-1000 episode of training), to finally 1400 after 6000 episode of training. So my guess that the Q function will tend to infinity is verified.
 
 I guess it's better to set the reward function to -1 for actions causing termination of the game, and 0 for other actions. When I have time, I'll try it and update the repo.
