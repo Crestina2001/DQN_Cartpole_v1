@@ -1,6 +1,6 @@
 # DQN_Cartpole_v1
 
-The code is copied from [pytorch DQN tutorial](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)(modified a little)
+Reference [pytorch DQN tutorial](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 
 ### How to run it?
 
